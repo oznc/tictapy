@@ -1,7 +1,7 @@
 def log(msg):
     f = open("python_log.txt", "a")
     f.write(msg)
-    f.close()    
+    f.close()     
 
 
 # open and read the file after the appending:
