@@ -1,0 +1,16 @@
+
+ Error: list index out of range
+ Error: list index out of range
+ Error: list index out of range
+ Error: list index out of range
+ ASADASD: 'function' object has no attribute '__getitem__'
+ Error: list index out of range
+ ASADASD: 'function' object has no attribute '__getitem__'
+ Exception: 'function' object has no attribute '__getitem__'
+ Error: list index out of range
+ Error: list index out of range
+ Error: list index out of range
+ Exception: 'NoneType' object has no attribute '__getitem__'
+ Exception: 'NoneType' object has no attribute '__getitem__'
+ Exception: 'NoneType' object has no attribute '__getitem__'
+ Error: list index out of range
