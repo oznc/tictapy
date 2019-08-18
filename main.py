@@ -20,7 +20,8 @@ def init():
         game, _ = game_board(game, just_display=True)
         player_cycle = itertools.cycle(players)
         while not game_won:
-            current_player = player_cycle.next()
+            # current_player = player_cycle.next() #python2
+            current_player = next(player_cycle)
             print("Current Player: {}".format(current_player))
             played = False
 
@@ -35,7 +36,8 @@ def init():
             if game_won:
                 print(msg)
                 print
-                again = str(raw_input("Game over. Wanna play again? (y/n) "))
+                # again = str(raw_input("Game over. Wanna play again? (y/n) ")) #python2
+                again = str(input("Game over. Wanna play again? (y/n) "))
                 if again == "y":
                     print("Restarting")
                 elif again == "n":
